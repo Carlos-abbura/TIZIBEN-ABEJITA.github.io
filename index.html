@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Invitación</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background-color: #fefefe;
     }
 
     .invitacion-container {
@@ -14,9 +16,7 @@
       width: 100%;
       height: 0;
       padding-top: 370.3704%;
-      padding-bottom: 0;
-      box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
-      margin-top: 0em;
+      box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16);
       margin-bottom: 0.9em;
       overflow: hidden;
       border-radius: 8px;
@@ -30,13 +30,11 @@
       top: 0;
       left: 0;
       border: none;
-      padding: 0;
-      margin: 0;
     }
 
     .botones-flotantes {
       position: fixed;
-      bottom: 75px; /* Subido 40px más */
+      bottom: 75px;
       left: 50%;
       transform: translateX(-50%);
       display: flex;
@@ -56,7 +54,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
       cursor: pointer;
       overflow: hidden;
       transition: transform 0.3s;
@@ -80,8 +78,7 @@
   <div class="invitacion-container">
     <iframe loading="lazy"
       src="https://www.canva.com/design/DAGkeC9yp5c/Fepiq10lY5uN3rDpIr20WA/watch?embed"
-      allowfullscreen="allowfullscreen"
-      allow="fullscreen">
+      allowfullscreen>
     </iframe>
   </div>
 
@@ -98,7 +95,7 @@
     </a>
 
     <!-- Botón Info -->
-    <a href="https://sites.google.com/view/tizibenabejita/sugerencias-de-regalos" class="boton-flotante" title="Más info">
+    <a href="https://sites.google.com/view/tizibenabejita/sugerencias-de-regalos" target="_blank" class="boton-flotante" title="Más info">
       <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3h3ZXVwaWVsMmRlcXZva2hmMzA1NW14anl6dHVqMGdnYW9pNXN5dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Y0sXcPq031L31dWDIi/giphy.gif" alt="Info">
     </a>
   </div>
